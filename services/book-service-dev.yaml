@@ -4,7 +4,7 @@ spring:
       enable: true
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/db-library-system  #library_system_eca
+    url: jdbc:postgresql://localhost:13500/library_system_eca
     username: postgres
     password: psql
     driver-class-name: org.postgresql.Driver
@@ -16,7 +16,7 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-      #  format_sql: true
+        format_sql: true
 
   servlet:
     multipart:

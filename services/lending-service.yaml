@@ -3,12 +3,7 @@ spring:
     name: lending-service
 
   mongodb:
-    host: localhost
-    port: 14500
-    database: library_management
-    username: root
-    password: mongodb
-    authentication-database: admin
+    uri: mongodb://root:gzZ8BWNVr5PbNbBdCNwG5moSBLeAWLTfSuF_A1WuJOkfMzUR@9a69bbb5-6d71-412a-bd17-0b88ba72d68d.asia-southeast1.firestore.goog:443/db-library-system?loadBalanced=true&tls=true&authMechanism=SCRAM-SHA-256&retryWrites=false
 
   data:
     rest:

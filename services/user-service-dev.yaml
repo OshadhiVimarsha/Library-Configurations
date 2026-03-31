@@ -4,7 +4,7 @@ spring:
       enable: true
 
   datasource:
-    url: jdbc:mysql://localhost:3306/db-library-system?createDatabaseIfNotExist=true  # Library_Management_System
+    url: jdbc:mysql://localhost:12500/Library_Management_System
     username: root
     password: Ijse123
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -16,7 +16,7 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
-      #  format_sql: true
+        format_sql: true
 
 servlet:
   multipart:

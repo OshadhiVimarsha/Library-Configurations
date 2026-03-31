@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: lending-service
+
+  mongodb:
+    host: localhost
+    port: 14500
+    database: library_management
+    username: root
+    password: mongodb
+    authentication-database: admin
+
+  data:
+    rest:
+      base-path: /api/v1
+
+server:
+  port: 8082
